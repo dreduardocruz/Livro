@@ -19,21 +19,16 @@
 \usepackage{indentfirst}
 \usepackage{natbib}
 \usepackage{makeidx}
-%\usepackage{calc} % przeliczanie pozycji
-%\usepackage{amsmath} % matematyczne symbole
-%\usepackage{longtable} % dla dlugich tabel
-%\usepackage{multirow} % pomoc do tabel
 \usepackage[brazil]{babel}
-\usepackage{glossaries}
-
+%\usepackage{glossaries}
 %FONTS my proposal is TeXGyre
-%\usepackage{tgtermes} %times like
+\usepackage{tgtermes} %times like
 %\usepackage{tgcursor} %courier like
 %\usepackage{tgschola} %schoolbook like
 %\usepackage{tgpagella} %palatin like
 %\usepackage{tgchorus} %itc zapf chancery like
 %\usepackage{tgbonum} %bookman like
-\usepackage{tgheros} %helvetica like
+%\usepackage{tgheros} %helvetica like
 %\usepackage{tgadventor} %avant garde gothic like
 
 
@@ -115,27 +110,15 @@
 	
 	
 	%%%SIMPLE TITLEPAGE
-	\maketitle 
-	\thispagestyle{empty}
-	\clearpage
-	\setcounter{tocdepth}{6}
+\maketitle 
+\thispagestyle{empty}
+\clearpage
+\setcounter{tocdepth}{6}
+\tableofcontents
+\listoftables
 	
-	%TOC
-	\tableofcontents
-	\listoftables
-	%TUTAJ PISZ ALBO ZROB \INCLUDE{} LUB \INPUT{}
 
 
-	%\input{lorem.tex}
-%	\part{Questões separadas por assunto}
-%	\chapter{Pontos de acupuntura}
-%	\begin{itemize}
-%	\item \noindent	\hyperlink{pontos 1}{2013-01}\\
-%	\item \hyperlink{pontos 2}{2013-02}\\
-%	\item \hyperlink{pontos 3}{2013-03}\\
-%	\item \hyperlink{pontos 4}{2013-04}\\
-%	\item \hyperlink{pontos 5}{2013-05}\\
-%\end{itemize}
 
 	
 	
@@ -147,48 +130,45 @@
 
 Adriano Höhl
 \begin{itemize}
-	\item Graduação em Medicina pela Faculdade  de Medicina da Universidade Federal de Goiás
-	\item Especialista em  Acupuntura Médica pelo Colégio Brasileiro de Acupuntura Médica e Associação Médica Brasileira .
-	\item Especialista em  Nutrologia pela Associação Brasileira  de Nutrologia e   Associação Médica Brasileira.
-	\item Especialista em  Ginecologia e Obstetrícia  pela  FEBRASGO e Associação Médica Brasileira. 
-	\item Título de Habilitação em    Ultrassonografia Ginecológica pela FEBRASGO e Colégio Brasileiro de Radiologia.
-	\item Título de habilitação em Densitometria  pelo Colégio Brasileiro de Radiologia.
+	\item Graduação em Medicina pela Faculdade de Medicina da Universidade Federal de Goiás;
+	\item Especialista em  Acupuntura Médica pelo Colégio Brasileiro de Acupuntura Médica e Associação Médica Brasileira;
+	\item Especialista em  Nutrologia pela Associação Brasileira  de Nutrologia e   Associação Médica Brasileira;
+	\item Especialista em  Ginecologia e Obstetrícia  pela  FEBRASGO e Associação Médica Brasileira; 
+	\item Título de Habilitação em    Ultrassonografia Ginecológica pela FEBRASGO e Colégio Brasileiro de Radiologia;
+	\item Título de habilitação em Densitometria  pelo Colégio Brasileiro de Radiologia;
 	\item Diretor Clínico da Höhlklinik
 \end{itemize}
 
 
 Silvia Ungarelli
 \begin{itemize}
-	\item Graduação em Medicina pela Faculdade de Medicina da Universidade Federal de Goiás.
+	\item Graduação em Medicina pela Faculdade de Medicina da Universidade Federal de Goiás;
 	\item Especialista em Acupuntura Médica pelo Colégio Brasileiro de Acupuntura Médica e Associação Médica Brasileira.
 \end{itemize} 
 
 Eduardo Cruz
 \begin{itemize}
-	\item Graduação em Medicina pela Faculdade de Medicina da Universidade Federal de Goiás.
-	\item Especialista em Ginecologia e Obstetrícia pelo Hospital das Clinicas da Universidade Federal de Goiás.
+	\item Graduação em Medicina pela Faculdade de Medicina da Universidade Federal de Goiás;
+	\item Especialista em Ginecologia e Obstetrícia pelo Hospital das Clinicas da Universidade Federal de Goiás;
 	\item Especialista em Acupuntura Médica pelo Colégio Brasileiro de Acupuntura Médica e Associação Médica Brasileira.
 \end{itemize}
 % Capítulos introdutórios
 \chapter*{Dedicatórias}
 
 
-\textit{Dedicatórias :}
+\textit{Dedicatórias:}
 
-\textit{Dedico este livro a minha esposa Ana Lúcia, a minha mãe Luzia e a meus filhos  Adriano, Laura e Luisa.}
+\textit{Dedico este livro a minha esposa Ana Lúcia, a minha mãe Luzia e a meus filhos Adriano, Laura e Luisa.}
 
 \textit{Adriano Höhl}\\
 
-\textit{Dedico este livro a minha esposa Tânia Mara, aos meus filhos Gabriel, Eduardo e Hugo.}
+\textit{Dedico este livro a minha esposa Tânia Mara, aos meus filhos Gabriel, Eduardo e Hugo. Eles fizeram tudo valer a pena.}
 
-
-\textit{Eduardo Cruz }\\
+\textit{Eduardo Cruz}\\
 
 \textit{Dedico este livro à minha querida família.}
 
 \textit{Silvia Ungarelli}\\
-
-
 
 
 \textit{Dedicamos este livro  a todos os  Colegas e professores  do  V Curso de Acupuntura do CMA-Goiás.}
@@ -202,7 +182,7 @@ Eduardo Cruz
  
 \textit{Iniciamo-nos na Medicina Tradicional Chinesa ainda no ano de 2017, em Goiânia - GO, onde descobrimos uma nova forma de ver a medicina em sua forma mais antiga da história. Deixamos para trás toda a tecnologia e toda a complexa farmacologia, potencializamos a nossa imaginação em busca deste conhecimento novo e de uma nova teoria que para muitos parece tão abstrata.  Um paradoxo entre uma Medicina tão simples, mas ao mesmo tempo tão complexa e que funciona tão bem que, com o tempo, nos mostrou a grande verdade do pensamento de Leonardo da Vinci quando  diz:  “A Simplicidade é o último grau de Sofisticação.”}
 
-\textit{A idéia desta obra surgiu durante a nossa especialização, em meio a dificuldades cotidianas como tempo para estudo, trabalho, compromissos familiares e o preparo para o esperado TEAC - prova de título de especialista em Acupuntura Médica, promovida pelo Colégio Médico Brasileiro de Acupuntura. A semente do trabalho foi plantada e germinada pela união e reunião de um grande número de alunos, até então especializandos. Neste momento, ainda alunos, reunimo-nos, dividimos e sistematizamos 12 anos de provas de título, para que assim pudéssemos compartilhar entre nós mesmos as questões comentadas que facilitariam nosso estudo.}
+\textit{A idéia desta obra surgiu durante a nossa especialização, em meio a dificuldades cotidianas como tempo para estudo, trabalho, compromissos familiares e o preparo para o esperado TEAC - prova de título de especialista em Acupuntura Médica, promovida pelo Colégio Médico Brasileiro de Acupuntura. A semente do trabalho foi plantada e germinada pela união e reunião de um grande número de alunos, até então especializandos. Neste momento, ainda alunos, reunimos, dividimos e sistematizamos 12 anos de provas de título, para que assim pudéssemos compartilhar entre nós mesmos as questões comentadas que facilitariam nosso estudo.}
 
 \textit{O resultado da metodologia veio com a aprovação de 98\% da turma do CMA-Goiás, todos com médias de notas altas, além da primeira nota 10 em toda a história da prova de títulos em Acupuntura médica, feito alcançado por um dos autores desta obra, a Dra. Silvia Ungarelli}
 
@@ -211,6 +191,8 @@ Eduardo Cruz
 \textit{Ressaltamos a importância do estudo sistematizado nos tratados e na referência bibliográfica de cada curso, pois nosso objetivo não é e nunca foi substituí-los e sim proporcionar uma ferramenta a mais para o entendimento e fixação do aprendizado, preparando para provas e concursos que o leitor possa participar.}
 
 \textit{Assim, a obra está organizada por questões e no Índice Remissivo pode-se pesquisar por temas.}
+
+\textit{Os comentários das respostas estão embasados na bibliografia onde se extraiu trechos ipsis litteris da literatura consultada e deixamos expresso nosso aviso de todos direitos reservados aos autores. Algumas respostas refletem nossa opinião mas sempre nos remetemos a bibliografia para estudo.}
 
 \pagestyle{plain}
 
@@ -7427,7 +7409,7 @@ Neste capítulo encontram -se  planilhas de  simulações de  sequencias de pont
 
 
 % ##### define colors
-\definecolor{color_255_255_102}{RGB}{255,255,102}
+%\definecolor{color_255_255_102}{RGB}{255,255,102}
 % ##### FIM define colors
 
 
@@ -8782,8 +8764,6 @@ Neste capitulo encontram-se   planilhas de  simulações de  sequencias de ponto
 \textit{A estimulação elétrica nervosa transcutânea (TENS) é um recurso não farmacológico utilizado na modulação de dores agudas e crônicas. A TENS pode ser classificada em quatro modalidades: convencional, acupuntura, em rajadas (burst) e breve-intensa. A modalidade convencional tem alta frequência (10 a 200 Hz) e baixa intensidade e é comumente utilizada em dores agudas. Já a modalidade acupuntura tem baixa frequência (2 a 4 Hz) e alta intensidade e é mais usada em dores crônicas. A estimulação de um receptor tátil (mais precisamente fibra A beta), envia impulsos para a coluna dorsal e, também, por meio de interneurônios, inibe as células da substância gelatinosa, provavelmente pela liberação do ácido gama-aminobutírico (GABA), o que impedirá que as ações geradas pela estimulação nociva continuem sendo transmitidas, o que explica a ação da estimulação elétrica nervosa transcutânea (TENS). A modalidade TENS convencional (alta frequência e baixa intensidade) possui efeitos segmentares semelhantes ao da acupuntura, porém não iguais. Já a modalidade TENS acupuntura (baixa frequência e alta intensidade) possui semelhanças com a eletroacupuntura, embora já tenha sido demonstrado que produz respostas clínicas diferentes.} 
 
 
-
-
 \bibliographystyle{apa}
 \bibliography{bibliografia}
 \nocite{maciocia1996fundamentos}
@@ -8791,9 +8771,9 @@ Neste capitulo encontram-se   planilhas de  simulações de  sequencias de ponto
 \nocite{filshie2002acupuntura}
 \nocite{nongacupuntura}
 \nocite{wang2005tratado}
-\nocite{yamamura2001acupuntura}
 \nocite{bittar2014manual}
-
+\nocite{tsai2019smmr}
+\nocite{sctm}
 
 
 
